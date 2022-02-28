@@ -1,0 +1,12 @@
+.custom-text{
+    color:#FDC435;
+}
+
+.my-btn{
+    background-color: #FDC435;
+    padding: 5px 12px;
+}
+
+.my-btn:hover{
+  background-color: rgba(255, 68, 0, 0.506);
+}
