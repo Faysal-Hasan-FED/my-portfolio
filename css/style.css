@@ -11,6 +11,18 @@ body{
   background-color: rgba(255, 68, 0, 0.506);
 }
 
+#project1{
+    border-left: 5px solid coral;
+}
+
+#project2{
+    border-right: 5px solid deeppink;
+}
+
+#project3{
+    border-left: 5px solid darkred;
+}
+
 .project-image{
     height: 300px;
     object-fit: cover;
@@ -33,9 +45,19 @@ body{
     color: rgb(44, 44, 212);
 }
 
-@media screen and (max-width: 680px) {
-   .contact{
-       width: 100%;
-       margin: 0;
-   }
-  }
+.my-image{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+#services img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.contact{
+    border-left: 5px solid darkgreen;
+}

@@ -28,6 +28,8 @@
                 <div class="navbar-nav ms-auto">
                   <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   <a class="nav-link active" href="#">About</a>
+                  <a class="nav-link active" href="#services">Services</a>
+                  <a class="nav-link active" href="#skills">Skills</a>
                   <a class="nav-link active" href="#projects">Projects</a>
                   <a class="nav-link active" href="#contact">Contact</a>
                 </div>
@@ -36,7 +38,7 @@
           </nav>
           <section class="hero row mt-5">
               <div class="col-sm-12 col-md-6 mb-5">
-                <p class=" animate__animated animate__bounceInLeft">Front End Web Developer</p>
+                <h3 class="text-warning animate__animated animate__bounceInLeft">Front End Web Developer</h3>
                 <p class="fs-1 fw-bold">Hello,my name is <br> Faysal Hasan</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum molestiae perspiciatis praesentium eligendi delectus.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam corporis tempore veniam, dolores ipsa perspiciatis.</p>
@@ -51,12 +53,102 @@
     </header>
 
     <main>
-        <section id="projects" class="container">
-            <h1 class="text-center">Projects</h1>
+        <section class="container">
+            <section id="about" class="row my-5">
+                <section class="col-sm-12 col-md-6">
+                    <img class="w-100 my-image" src="images/faysal2.png" alt="faysal image">
+                </section>
+                <section class="col-sm-12 col-md-6">
+    
+                </section>
+            </section>
+        </section>
+        <section id="services" class="container mb-5">
+            <h1 class="text-center">My Services</h1>
+            <div class="line-break mb-5">
+                <hr>
+            </div>
+            <div class="row  justify-content-around g-3">
+                <div class="cols-sm-5 col-md-3  text-center border shadow-sm p-3">
+                    <img src="images/html5.png" alt="html5 logo">
+                    <h1 class="mt-3">HTML5</h1>
+                    <p>I will use <span class="text-danger fw-bold"> latest HTML5</span> to make the skeleton of your website.I will make sure to use all the <span class="text-danger fw-bold">semantic tags</span>  so that you can do <span class="text-danger fw-bold">SEO</span> easily.</p>
+                </div>
+                <div class=" cols-sm-5 col-md-4  text-center border shadow-sm p-3">
+                    <img src="images/css.png" alt="css3 logo">
+                    <h1 class="mt-3">CSS3</h1>
+                    <p>Your site will be <span class="text-danger fw-bold">fully responsive</span>. No need to worry for that.I will do design for you.</p>
+    
+                </div>
+                <div class="cols-sm-5 col-md-3  text-center border shadow-sm p-3">
+                    <img src="images/bootstrap.jpeg" alt="bootstrap5 logo">
+                    <h1 class="mt-3">BOOTSTRAP5</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quaerat, recusandae magni alias repellendus?</p>
+    
+                </div>
+                <div class="cols-sm-5 col-md-3  text-center border shadow-sm p-3">
+                    <img src="images/tailwind.png" alt="tailwind logo">
+                    <h1 class="mt-3">TAILWIND3</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.consectetur adipisicing elit.</p>
+    
+                </div>
+                <div class="cols-sm-5 col-md-4  text-center border shadow-sm p-3 ">
+                    <img src="images/GitHub-logo.svg" alt="github logo">
+                    <h1 class="mt-3">GITHUB</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum velit reprehenderit! Dolorum, autem placeat.</p>
+    
+                </div>
+                <div class="cols-sm-5 col-md-3  text-center border shadow-sm p-3">
+                    <img src="images/js.png" alt="js logo">
+                    <h1 class="mt-3">JAVASCRIPT</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, reprehenderit.</p>
+    
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section id="skills" class="my-5 container">
+            <h1 class="text-center">My Skills</h1>
             <div class="line-break">
                 <hr>
             </div>
-            <section class="row my-5 rounded border p-3 shadow">
+            <div>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML 80%</div>
+                  </div>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS 75%</div>
+                  </div>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">BOOTSTRAP 70%</div>
+                  </div>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">TAILWIND 70%</div>
+                  </div>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">GITHUB 70%</div>
+                  </div>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT 65%</div>
+                  </div>
+                  <br>
+
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h1 class="text-center">My Projects</h1>
+            <div class="line-break">
+                <hr>
+            </div>
+            <section id="project1" class="row my-5 rounded  p-3 shadow">
                 <div class="col-sm-12 col-md-6 pt-5">
                     <h1>Pharmacy Project</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum quisquam at totam blanditiis minus velit eos dolores rerum nisi.</p>
@@ -66,17 +158,17 @@
                     <img class="w-100 project-image" src="images/pharmacy.png" alt="">
                 </div>
             </section>
-            <section class="row my-5 rounded border p-3 shadow">
+            <section id="project2" class="row my-5 rounded  p-3 shadow">
                 <div class="col-sm-12 col-md-6">
                     <img class="w-100 project-image" src="images/travel.png" alt="">
                 </div>
                 <div class="col-sm-12 col-md-6 pt-5">
-                    <h1>Travel Project</h1>
+                    <h1 class="text-warning">Travel Project</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum quisquam at totam blanditiis minus velit eos dolores rerum nisi.</p>
                     <a target="_blank" href="https://travel-agency-by-faysal.netlify.app/"><button class="btn btn-secondary">See Project</button></a>
                 </div>
             </section>
-            <section class="row my-5 rounded border p-3 shadow">
+            <section id="project3" class="row my-5 rounded  p-3 shadow">
                 <div class="col-sm-12 col-md-6 pt-5">
                     <h1>Library Project</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum quisquam at totam blanditiis minus velit eos dolores rerum nisi.</p>
@@ -87,6 +179,7 @@
                 </div>
             </section>
         </section>
+        
 
         <section id="contact">
             <h1 class="text-center">Contact Me</h1>
@@ -105,12 +198,11 @@
                     <br> <br>
                     <a class="text-decoration-none" target="_blank" href="https://www.facebook.com/faysal.hasan.135/"><button class="d-block btn btn-dark ms-auto">Send</button></a>
             </section>
-
-            <section class="my-5 text-center social">
+            <section class="mt-5 text-center social">
                 <a target="_blank" href="https://www.facebook.com/faysal.hasan.135/"><i class="fa-brands icon me-3 fa-3x fa-facebook"></i></a>
                 <a target="_blank" href="https://www.linkedin.com/in/faysal-hasan-5ab905216/"><i class="fa-brands icon me-3 fa-3x fa-linkedin"></i></a>
                 <a target="_blank" href="https://github.com/Faysal-Hasan-FED"><i class="fa-brands icon me-3 fa-3x fa-github"></i></a>
-                <p class="mt-3">Faysal Hasan &copy; Free</p>
+                <p class="mt-3">Faysal Hasan &copy; 2022</p>
             </section>
         </section>
 
