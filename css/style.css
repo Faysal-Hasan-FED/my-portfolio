@@ -26,6 +26,16 @@ body{
     height: 5px;
 }
 
+.social a{
+    color: black;
+}
+.social a:hover{
+    color: rgb(44, 44, 212);
+}
+
 @media screen and (max-width: 680px) {
-   
+   .contact{
+       width: 100%;
+       margin: 0;
+   }
   }
